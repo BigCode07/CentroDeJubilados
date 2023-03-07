@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SecretariaDeTransporteProvincialModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Estado1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Legajos" Relationship="Self.FK_Legajos_Estado" FromRole="Estado" ToRole="Legajos" />
+  </EntityType>
+  <EntityType Name="Legajo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Legajo1" Type="Int32" Nullable="false" />
+    <Property Name="Dni" Type="Int32" Nullable="false" />
+    <Property Name="ApeyNom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdEstado" Type="Int32" Nullable="false" />
+    <Property Name="Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaCarga" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Estado" Relationship="Self.FK_Legajos_Estado" FromRole="Legajos" ToRole="Estado" />
+    <Property Name="Caja" Type="Int32" Nullable="false" />
+    <Property Name="Imagen" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Legajos_Estado">
+    <End Role="Estado" Type="Self.Estado" Multiplicity="1" />
+    <End Role="Legajos" Type="Self.Legajo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estado">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Legajos">
+        <PropertyRef Name="IdEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SecretariaDeTransporteProvincialEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Estadoes" EntityType="Self.Estado" />
+    <EntitySet Name="Legajos" EntityType="Self.Legajo" />
+    <AssociationSet Name="FK_Legajos_Estado" Association="Self.FK_Legajos_Estado">
+      <End Role="Estado" EntitySet="Estadoes" />
+      <End Role="Legajos" EntitySet="Legajos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

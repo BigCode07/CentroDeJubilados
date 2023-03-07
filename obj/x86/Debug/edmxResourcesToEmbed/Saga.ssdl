@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="INTERFILEModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cajas">
+    <Key>
+      <PropertyRef Name="CAJ_Id" />
+    </Key>
+    <Property Name="CAJ_Id" Type="int" Nullable="false" />
+    <Property Name="CLI_Id" Type="int" Nullable="false" />
+    <Property Name="OT_Id" Type="bigint" Nullable="false" />
+    <Property Name="CAJ_Esta" Type="smallint" />
+    <Property Name="CAJ_Fila" Type="smallint" />
+    <Property Name="CAJ_Colu" Type="smallint" />
+    <Property Name="CAJ_Prec1" Type="char" MaxLength="10" />
+    <Property Name="CAJ_Prec2" Type="char" MaxLength="10" />
+    <Property Name="CCO_Id" Type="smallint" />
+    <Property Name="DEP_Id" Type="int" Nullable="false" />
+    <Property Name="TAM_Id" Type="smallint" />
+    <Property Name="CAJ_Guarda" Type="bit" />
+    <Property Name="CAJ_Stickers" Type="bit" />
+    <Property Name="CAJ_Especial" Type="bit" />
+    <Property Name="CAJ_Ubicada" Type="bit" />
+    <Property Name="CAJ_Consultada" Type="bit" />
+    <Property Name="Tipo_Mov" Type="char" MaxLength="2" />
+    <Property Name="usr_mov" Type="char" MaxLength="20" />
+    <Property Name="CAJ_FecCarga" Type="datetime" />
+    <Property Name="Caj_Grande" Type="bit" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="stamp" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="CLI_Id" />
+    </Key>
+    <Property Name="CLI_Id" Type="int" Nullable="false" />
+    <Property Name="CLI_Desc" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CLI_Razon" Type="varchar" MaxLength="100" />
+    <Property Name="CLI_Dom" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_Tel1" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_Tel2" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_Celu" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_Mail" Type="varchar" MaxLength="100" />
+    <Property Name="CLI_Web" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_Prov" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_Loc" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_CP" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_Contactos" Type="varchar" MaxLength="250" />
+    <Property Name="CLI_FecIng" Type="datetime" />
+    <Property Name="IVA_Id" Type="smallint" />
+    <Property Name="CLI_Cuit" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_IBrutos" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_Activo" Type="bit" />
+    <Property Name="CLI_HistCli" Type="bit" />
+    <Property Name="CLI_Interfile" Type="bit" />
+    <Property Name="CLI_SubCajas" Type="bit" />
+    <Property Name="CLI_CCosto" Type="bit" />
+    <Property Name="SoftExterno" Type="bit" />
+    <Property Name="Cli_FM" Type="smallint" />
+    <Property Name="Cli_InicioFac" Type="smalldatetime" />
+    <Property Name="Cli_Comentarios" Type="text" />
+    <Property Name="Cli_ComentariosMensual" Type="text" />
+    <Property Name="Cli_Diarios" Type="bit" Nullable="false" />
+    <Property Name="Cli_MailEnvios" Type="varchar" MaxLength="150" />
+    <Property Name="Cli_BaseDiarios" Type="varchar" MaxLength="50" />
+    <Property Name="FiltraAutorizados" Type="bit" Nullable="false" />
+    <Property Name="FiltraCcosto" Type="bit" Nullable="false" />
+    <Property Name="Cli_WebDigital" Type="varchar" MaxLength="50" />
+    <Property Name="Cli_RRHH" Type="bit" />
+    <Property Name="Cli_Autos" Type="bit" />
+    <Property Name="frecuencia" Type="nchar" MaxLength="50" />
+    <Property Name="oc" Type="bit" />
+    <Property Name="ocvigencia_desde" Type="datetime" />
+    <Property Name="ocvigencia_hasta" Type="datetime" />
+    <Property Name="nrooc" Type="nchar" MaxLength="50" />
+    <Property Name="tipo_facturacion" Type="nchar" MaxLength="100" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="stamp" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="EST_Id" Type="int" />
+  </EntityType>
+  <EntityContainer Name="INTERFILEModelStoreContainer">
+    <EntitySet Name="Cajas" EntityType="Self.Cajas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

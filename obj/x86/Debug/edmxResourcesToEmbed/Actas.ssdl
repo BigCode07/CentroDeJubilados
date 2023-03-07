@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CajaPrevisionBncoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ActasDeAsambleas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumeroActa" Type="varchar" MaxLength="90" Nullable="false" />
+    <Property Name="IdTipoAsamblea" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="Imagen" Type="varchar" MaxLength="150" />
+    <Property Name="Usuario" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="FechaCarga" Type="date" Nullable="false" />
+    <Property Name="Caja" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ActasDeDirectorios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Resolucion" Type="varchar" MaxLength="90" />
+    <Property Name="Descripcion" Type="varchar(max)" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="Caja" Type="int" Nullable="false" />
+    <Property Name="Imagen" Type="varchar" MaxLength="150" />
+    <Property Name="Usuario" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="NumeroActa" Type="varchar" MaxLength="90" Nullable="false" />
+    <Property Name="FechaCarga" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TiposActasDeAsambleas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ActasDeAsambleas_TiposActasDeAsambleas">
+    <End Role="TiposActasDeAsambleas" Type="Self.TiposActasDeAsambleas" Multiplicity="1" />
+    <End Role="ActasDeAsambleas" Type="Self.ActasDeAsambleas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TiposActasDeAsambleas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ActasDeAsambleas">
+        <PropertyRef Name="IdTipoAsamblea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CajaPrevisionBncoModelStoreContainer">
+    <EntitySet Name="ActasDeAsambleas" EntityType="Self.ActasDeAsambleas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ActasDeDirectorios" EntityType="Self.ActasDeDirectorios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TiposActasDeAsambleas" EntityType="Self.TiposActasDeAsambleas" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ActasDeAsambleas_TiposActasDeAsambleas" Association="Self.FK_ActasDeAsambleas_TiposActasDeAsambleas">
+      <End Role="TiposActasDeAsambleas" EntitySet="TiposActasDeAsambleas" />
+      <End Role="ActasDeAsambleas" EntitySet="ActasDeAsambleas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

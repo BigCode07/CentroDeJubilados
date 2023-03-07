@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CentroDeJubiladosModelStoreContainer" CdmEntityContainer="CentroDeJubiladosEntities">
+    <EntitySetMapping Name="HClinicas">
+      <EntityTypeMapping TypeName="CentroDeJubiladosModel.HClinica">
+        <MappingFragment StoreEntitySet="HClinicas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Caja" ColumnName="Caja" />
+          <ScalarProperty Name="HClinica1" ColumnName="HClinica" />
+          <ScalarProperty Name="Dni" ColumnName="Dni" />
+          <ScalarProperty Name="ApeyNom" ColumnName="ApeyNom" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="FCarga" ColumnName="FCarga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

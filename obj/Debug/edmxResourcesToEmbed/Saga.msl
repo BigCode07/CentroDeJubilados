@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="INTERFILEModelStoreContainer" CdmEntityContainer="SagaEntities">
+    <EntitySetMapping Name="Cajas">
+      <EntityTypeMapping TypeName="INTERFILEModel.Cajas">
+        <MappingFragment StoreEntitySet="Cajas">
+          <ScalarProperty Name="CAJ_Id" ColumnName="CAJ_Id" />
+          <ScalarProperty Name="CLI_Id" ColumnName="CLI_Id" />
+          <ScalarProperty Name="OT_Id" ColumnName="OT_Id" />
+          <ScalarProperty Name="CAJ_Esta" ColumnName="CAJ_Esta" />
+          <ScalarProperty Name="CAJ_Fila" ColumnName="CAJ_Fila" />
+          <ScalarProperty Name="CAJ_Colu" ColumnName="CAJ_Colu" />
+          <ScalarProperty Name="CAJ_Prec1" ColumnName="CAJ_Prec1" />
+          <ScalarProperty Name="CAJ_Prec2" ColumnName="CAJ_Prec2" />
+          <ScalarProperty Name="CCO_Id" ColumnName="CCO_Id" />
+          <ScalarProperty Name="DEP_Id" ColumnName="DEP_Id" />
+          <ScalarProperty Name="TAM_Id" ColumnName="TAM_Id" />
+          <ScalarProperty Name="CAJ_Guarda" ColumnName="CAJ_Guarda" />
+          <ScalarProperty Name="CAJ_Stickers" ColumnName="CAJ_Stickers" />
+          <ScalarProperty Name="CAJ_Especial" ColumnName="CAJ_Especial" />
+          <ScalarProperty Name="CAJ_Ubicada" ColumnName="CAJ_Ubicada" />
+          <ScalarProperty Name="CAJ_Consultada" ColumnName="CAJ_Consultada" />
+          <ScalarProperty Name="Tipo_Mov" ColumnName="Tipo_Mov" />
+          <ScalarProperty Name="usr_mov" ColumnName="usr_mov" />
+          <ScalarProperty Name="CAJ_FecCarga" ColumnName="CAJ_FecCarga" />
+          <ScalarProperty Name="Caj_Grande" ColumnName="Caj_Grande" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="stamp" ColumnName="stamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="INTERFILEModel.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="CLI_Id" ColumnName="CLI_Id" />
+          <ScalarProperty Name="CLI_Desc" ColumnName="CLI_Desc" />
+          <ScalarProperty Name="CLI_Razon" ColumnName="CLI_Razon" />
+          <ScalarProperty Name="CLI_Dom" ColumnName="CLI_Dom" />
+          <ScalarProperty Name="CLI_Tel1" ColumnName="CLI_Tel1" />
+          <ScalarProperty Name="CLI_Tel2" ColumnName="CLI_Tel2" />
+          <ScalarProperty Name="CLI_Celu" ColumnName="CLI_Celu" />
+          <ScalarProperty Name="CLI_Mail" ColumnName="CLI_Mail" />
+          <ScalarProperty Name="CLI_Web" ColumnName="CLI_Web" />
+          <ScalarProperty Name="CLI_Prov" ColumnName="CLI_Prov" />
+          <ScalarProperty Name="CLI_Loc" ColumnName="CLI_Loc" />
+          <ScalarProperty Name="CLI_CP" ColumnName="CLI_CP" />
+          <ScalarProperty Name="CLI_Contactos" ColumnName="CLI_Contactos" />
+          <ScalarProperty Name="CLI_FecIng" ColumnName="CLI_FecIng" />
+          <ScalarProperty Name="IVA_Id" ColumnName="IVA_Id" />
+          <ScalarProperty Name="CLI_Cuit" ColumnName="CLI_Cuit" />
+          <ScalarProperty Name="CLI_IBrutos" ColumnName="CLI_IBrutos" />
+          <ScalarProperty Name="CLI_Activo" ColumnName="CLI_Activo" />
+          <ScalarProperty Name="CLI_HistCli" ColumnName="CLI_HistCli" />
+          <ScalarProperty Name="CLI_Interfile" ColumnName="CLI_Interfile" />
+          <ScalarProperty Name="CLI_SubCajas" ColumnName="CLI_SubCajas" />
+          <ScalarProperty Name="CLI_CCosto" ColumnName="CLI_CCosto" />
+          <ScalarProperty Name="SoftExterno" ColumnName="SoftExterno" />
+          <ScalarProperty Name="Cli_FM" ColumnName="Cli_FM" />
+          <ScalarProperty Name="Cli_InicioFac" ColumnName="Cli_InicioFac" />
+          <ScalarProperty Name="Cli_Comentarios" ColumnName="Cli_Comentarios" />
+          <ScalarProperty Name="Cli_ComentariosMensual" ColumnName="Cli_ComentariosMensual" />
+          <ScalarProperty Name="Cli_Diarios" ColumnName="Cli_Diarios" />
+          <ScalarProperty Name="Cli_MailEnvios" ColumnName="Cli_MailEnvios" />
+          <ScalarProperty Name="Cli_BaseDiarios" ColumnName="Cli_BaseDiarios" />
+          <ScalarProperty Name="FiltraAutorizados" ColumnName="FiltraAutorizados" />
+          <ScalarProperty Name="FiltraCcosto" ColumnName="FiltraCcosto" />
+          <ScalarProperty Name="Cli_WebDigital" ColumnName="Cli_WebDigital" />
+          <ScalarProperty Name="Cli_RRHH" ColumnName="Cli_RRHH" />
+          <ScalarProperty Name="Cli_Autos" ColumnName="Cli_Autos" />
+          <ScalarProperty Name="frecuencia" ColumnName="frecuencia" />
+          <ScalarProperty Name="oc" ColumnName="oc" />
+          <ScalarProperty Name="ocvigencia_desde" ColumnName="ocvigencia_desde" />
+          <ScalarProperty Name="ocvigencia_hasta" ColumnName="ocvigencia_hasta" />
+          <ScalarProperty Name="nrooc" ColumnName="nrooc" />
+          <ScalarProperty Name="tipo_facturacion" ColumnName="tipo_facturacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="stamp" ColumnName="stamp" />
+          <ScalarProperty Name="EST_Id" ColumnName="EST_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

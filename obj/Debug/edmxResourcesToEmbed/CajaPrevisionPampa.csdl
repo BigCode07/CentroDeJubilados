@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CajaPrevisionBncoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ActasDeAsambleas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumeroActa" Type="String" MaxLength="90" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdTipoAsamblea" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="Imagen" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="FechaCarga" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Caja" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TiposActasDeAsambleas" Relationship="Self.FK_ActasDeAsambleas_TiposActasDeAsambleas" FromRole="ActasDeAsambleas" ToRole="TiposActasDeAsambleas" />
+  </EntityType>
+  <EntityType Name="ActasDeDirectorios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Resolucion" Type="String" MaxLength="90" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="Caja" Type="Int32" Nullable="false" />
+    <Property Name="Imagen" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="NumeroActa" Type="String" MaxLength="90" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaCarga" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="TiposActasDeAsambleas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ActasDeAsambleas" Relationship="Self.FK_ActasDeAsambleas_TiposActasDeAsambleas" FromRole="TiposActasDeAsambleas" ToRole="ActasDeAsambleas" />
+  </EntityType>
+  <Association Name="FK_ActasDeAsambleas_TiposActasDeAsambleas">
+    <End Role="TiposActasDeAsambleas" Type="Self.TiposActasDeAsambleas" Multiplicity="1" />
+    <End Role="ActasDeAsambleas" Type="Self.ActasDeAsambleas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TiposActasDeAsambleas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ActasDeAsambleas">
+        <PropertyRef Name="IdTipoAsamblea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CajaPrevisionBncoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ActasDeAsambleas" EntityType="Self.ActasDeAsambleas" />
+    <EntitySet Name="ActasDeDirectorios" EntityType="Self.ActasDeDirectorios" />
+    <EntitySet Name="TiposActasDeAsambleas" EntityType="Self.TiposActasDeAsambleas" />
+    <AssociationSet Name="FK_ActasDeAsambleas_TiposActasDeAsambleas" Association="Self.FK_ActasDeAsambleas_TiposActasDeAsambleas">
+      <End Role="TiposActasDeAsambleas" EntitySet="TiposActasDeAsambleas" />
+      <End Role="ActasDeAsambleas" EntitySet="ActasDeAsambleas" />
+    </AssociationSet>
+    <EntitySet Name="LegajosAfiliados" EntityType="CajaPrevisionBncoModel.LegajosAfiliados" />
+  </EntityContainer>
+  <EntityType Name="LegajosAfiliados">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumeroDocumento" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apeynom" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Beneficio" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Beneficiario" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="NumeroLegajo" Type="Int32" Nullable="false" />
+    <Property Name="FechaIngreso" Type="DateTime" Precision="0" />
+    <Property Name="FechaCese" Type="DateTime" Precision="0" />
+    <Property Name="FechaJubilacion" Type="DateTime" Precision="0" />
+    <Property Name="Caja" Type="Int32" Nullable="false" />
+    <Property Name="FechaCarga" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Imagen" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,133 @@
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\x86\Debug\FullProgram.exe.config
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\x86\Debug\FullProgram.exe
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\x86\Debug\FullProgram.pdb
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\x86\Debug\EntityFramework.dll
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\x86\Debug\EntityFramework.SqlServer.dll
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\x86\Debug\EntityFramework.xml
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\x86\Debug\EntityFramework.SqlServer.xml
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\ChameleonProject.Add.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\ChameleonProject.Billing.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\ChameleonProject.Digitize.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\ChameleonProject.Home.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\ChameleonProject.MainScreen.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\ChameleonProject.Presentation.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\FullProgram.Properties.Resources.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\ChameleonProject.Query.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\FullProgram.csproj.GenerateResource.cache
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\FullProgram.csproj.CoreCompileInputs.cache
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\FullProgram.csproj.CopyComplete
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\FullProgram.exe
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\FullProgram.pdb
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\x86\Debug\FullProgram.csproj.AssemblyReference.cache
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\bin\x86\Debug\FullProgram.exe.config
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\bin\x86\Debug\FullProgram.exe
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\bin\x86\Debug\FullProgram.pdb
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\bin\x86\Debug\EntityFramework.dll
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\bin\x86\Debug\EntityFramework.SqlServer.dll
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\bin\x86\Debug\EntityFramework.xml
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\bin\x86\Debug\EntityFramework.SqlServer.xml
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\FullProgram.csproj.AssemblyReference.cache
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\FullProgram.csproj.SuggestedBindingRedirects.cache
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\ChameleonProject.Add.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\ChameleonProject.Billing.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\ChameleonProject.Digitize.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\ChameleonProject.Home.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\ChameleonProject.MainScreen.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\ChameleonProject.Presentation.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\FullProgram.Properties.Resources.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\ChameleonProject.Query.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\FullProgram.csproj.GenerateResource.cache
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\FullProgram.csproj.CoreCompileInputs.cache
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\FullProgram.csproj.CopyComplete
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\FullProgram.exe
+\\fileserverhp\Fuentes\NET C#\M-Z\Maquetacion FullProgram\FullProgram 1.0.0\ChameleonProject\obj\x86\Debug\FullProgram.pdb
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.AssemblyReference.cache
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Properties.Resources.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.GenerateResource.cache
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.CoreCompileInputs.cache
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.exe
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.pdb
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\x86\Debug\FullProgram.exe.config
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\x86\Debug\FullProgram.exe
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\x86\Debug\FullProgram.pdb
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\x86\Debug\AxInterop.UsuarioOcx1.dll
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.dll
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.xml
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.CopyComplete
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Add.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Billing.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Digitize.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Home.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.MainScreen.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Presentation.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Query.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\bin\x86\Debug\FullProgram.exe.config
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\bin\x86\Debug\FullProgram.exe
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\bin\x86\Debug\FullProgram.pdb
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\bin\x86\Debug\AxInterop.UsuarioOcx1.dll
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.dll
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.SqlServer.dll
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.xml
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.SqlServer.xml
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Add.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Billing.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Digitize.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Home.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.MainScreen.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Presentation.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Properties.Resources.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Query.resources
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.GenerateResource.cache
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.CoreCompileInputs.cache
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.CopyComplete
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.exe
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.pdb
+\\fileserverhp\Fuentes\NET C#\M-Z\secretaria de trabajo\Full Programme (Legajos)\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.AssemblyReference.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\bin\x86\Debug\FullProgram.exe.config
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\bin\x86\Debug\FullProgram.exe
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\bin\x86\Debug\FullProgram.pdb
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\bin\x86\Debug\AxInterop.UsuarioOcx1.dll
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.dll
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.xml
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.AssemblyReference.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Add.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Billing.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Digitize.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Home.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.MainScreen.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Presentation.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Properties.Resources.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.Query.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.GenerateResource.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.CoreCompileInputs.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.csproj.CopyComplete
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.exe
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0\obj\x86\Debug\FullProgram.pdb
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\bin\x86\Debug\FullProgram.exe.config
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\bin\x86\Debug\FullProgram.exe
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\bin\x86\Debug\FullProgram.pdb
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\bin\x86\Debug\AxInterop.UsuarioOcx1.dll
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\bin\x86\Debug\EntityFramework.dll
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\bin\x86\Debug\EntityFramework.xml
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.csproj.AssemblyReference.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.Add.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.Billing.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.Digitize.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.Home.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.MainScreen.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.Presentation.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.Properties.Resources.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.Query.resources
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.csproj.GenerateResource.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.csproj.CoreCompileInputs.cache
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.csproj.CopyComplete
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.exe
+C:\Users\NSABA\source\repos\Software Desktop\FullProgram 1.0.0 (Porta Hermanos) - Copy\obj\x86\Debug\FullProgram.pdb

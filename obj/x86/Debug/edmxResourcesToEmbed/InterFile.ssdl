@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InterfileSAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'InterfileSA.dbo.Cajas' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Cajas">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Caja" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Caja" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipoDocumento" Type="int" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cliente" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Datos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdCaja" Type="int" Nullable="false" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="450" Nullable="false" />
+    <Property Name="Dni" Type="int" />
+    <Property Name="TipoDocumentoFijo" Type="int" Nullable="false" />
+    <Property Name="DatoDocumentoFijo" Type="varchar" MaxLength="450" Nullable="false" />
+    <Property Name="Estado" Type="int" />
+    <Property Name="HClinico" Type="int" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="FechaInternacion" Type="date" />
+    <Property Name="TipoDocumento" Type="int" />
+    <Property Name="DatoDocumento" Type="varchar" MaxLength="450" />
+    <Property Name="Imagen" Type="varchar" MaxLength="550" />
+    <Property Name="Usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaCarga" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HClinico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoDocumento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoDocumentoFijo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Cajas_Datos">
+    <End Role="Datos" Type="Self.Datos" Multiplicity="1" />
+    <End Role="Cajas" Type="Self.Cajas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Cajas">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="InterfileSAModelStoreContainer">
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Datos" EntityType="Self.Datos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Estado" EntityType="Self.Estado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HClinico" EntityType="Self.HClinico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoDocumento" EntityType="Self.TipoDocumento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoDocumentoFijo" EntityType="Self.TipoDocumentoFijo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cajas" EntityType="Self.Cajas" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Cajas].[Id] AS [Id], 
+    [Cajas].[Caja] AS [Caja], 
+    [Cajas].[TipoDocumento] AS [TipoDocumento]
+    FROM [dbo].[Cajas] AS [Cajas]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Cajas_Datos" Association="Self.FK_Cajas_Datos">
+      <End Role="Datos" EntitySet="Datos" />
+      <End Role="Cajas" EntitySet="Cajas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

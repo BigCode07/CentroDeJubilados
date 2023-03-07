@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CajaPrevisionBncoModelStoreContainer" CdmEntityContainer="CajaPrevisionBncoEntities1">
+    <EntitySetMapping Name="ActasDeAsambleas">
+      <EntityTypeMapping TypeName="CajaPrevisionBncoModel.ActasDeAsambleas">
+        <MappingFragment StoreEntitySet="ActasDeAsambleas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumeroActa" ColumnName="NumeroActa" />
+          <ScalarProperty Name="IdTipoAsamblea" ColumnName="IdTipoAsamblea" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="FechaCarga" ColumnName="FechaCarga" />
+          <ScalarProperty Name="Caja" ColumnName="Caja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ActasDeDirectorios">
+      <EntityTypeMapping TypeName="CajaPrevisionBncoModel.ActasDeDirectorios">
+        <MappingFragment StoreEntitySet="ActasDeDirectorios">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Resolucion" ColumnName="Resolucion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Caja" ColumnName="Caja" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="NumeroActa" ColumnName="NumeroActa" />
+          <ScalarProperty Name="FechaCarga" ColumnName="FechaCarga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TiposActasDeAsambleas">
+      <EntityTypeMapping TypeName="CajaPrevisionBncoModel.TiposActasDeAsambleas">
+        <MappingFragment StoreEntitySet="TiposActasDeAsambleas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

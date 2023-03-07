@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InterfileSAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Datos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdCaja" Type="Int32" Nullable="false" />
+    <Property Name="IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Dni" Type="Int32" />
+    <Property Name="TipoDocumentoFijo" Type="Int32" Nullable="false" />
+    <Property Name="DatoDocumentoFijo" Type="String" MaxLength="450" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="Int32" />
+    <Property Name="HClinico" Type="Int32" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="FechaInternacion" Type="DateTime" Precision="0" />
+    <Property Name="TipoDocumento" Type="Int32" />
+    <Property Name="DatoDocumento" Type="String" MaxLength="450" FixedLength="false" Unicode="false" />
+    <Property Name="Imagen" Type="String" MaxLength="550" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaCarga" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Cajas" Relationship="Self.FK_Cajas_Datos" FromRole="Datos" ToRole="Cajas" />
+  </EntityType>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HClinico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoDocumento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoDocumentoFijo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cajas">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Caja" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Caja" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TipoDocumento" Type="Int32" />
+    <NavigationProperty Name="Datos" Relationship="Self.FK_Cajas_Datos" FromRole="Cajas" ToRole="Datos" />
+  </EntityType>
+  <Association Name="FK_Cajas_Datos">
+    <End Role="Datos" Type="Self.Datos" Multiplicity="1" />
+    <End Role="Cajas" Type="Self.Cajas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Datos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Cajas">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="InterfileSAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="Datos" EntityType="Self.Datos" />
+    <EntitySet Name="Estado" EntityType="Self.Estado" />
+    <EntitySet Name="HClinico" EntityType="Self.HClinico" />
+    <EntitySet Name="TipoDocumento" EntityType="Self.TipoDocumento" />
+    <EntitySet Name="TipoDocumentoFijo" EntityType="Self.TipoDocumentoFijo" />
+    <EntitySet Name="Cajas" EntityType="Self.Cajas" />
+    <AssociationSet Name="FK_Cajas_Datos" Association="Self.FK_Cajas_Datos">
+      <End Role="Datos" EntitySet="Datos" />
+      <End Role="Cajas" EntitySet="Cajas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

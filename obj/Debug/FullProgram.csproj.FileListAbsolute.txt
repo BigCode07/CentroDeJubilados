@@ -1,0 +1,47 @@
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\FullProgram.exe.config
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\FullProgram.exe
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\FullProgram.pdb
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\AxInterop.AcroPDFLib.dll
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\AxInterop.UsuarioOcx1.dll
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\EntityFramework.dll
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\EntityFramework.SqlServer.dll
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\EntityFramework.xml
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\bin\Debug\EntityFramework.SqlServer.xml
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\FullProgram.csproj.AssemblyReference.cache
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\ChameleonProject.Add.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\ChameleonProject.Billing.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\ChameleonProject.Digitize.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\ChameleonProject.Home.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\ChameleonProject.MainScreen.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\ChameleonProject.Presentation.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\FullProgram.Properties.Resources.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\ChameleonProject.Query.resources
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\FullProgram.csproj.GenerateResource.cache
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\FullProgram.csproj.CoreCompileInputs.cache
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\FullProgram.csproj.CopyComplete
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\FullProgram.exe
+\\fileserverhp\Fuentes\NET C#\A-L\FRANQUICIA LA PAMPA\CajaPrevisionSocial\FullProgram\ChameleonProject\obj\Debug\FullProgram.pdb
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.csproj.AssemblyReference.cache
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.Properties.Resources.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.csproj.GenerateResource.cache
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.csproj.CoreCompileInputs.cache
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.exe
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.pdb
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\FullProgram.exe.config
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\FullProgram.exe
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\FullProgram.pdb
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\AxInterop.UsuarioOcx1.dll
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\EntityFramework.dll
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\EntityFramework.xml
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.csproj.CopyComplete
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.csproj.SuggestedBindingRedirects.cache
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.Add.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.Billing.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.Digitize.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.Home.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.MainScreen.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.Presentation.resources
+C:\Users\NSABA\Desktop\FullProgram 1.0.0\obj\Debug\FullProgram.Query.resources

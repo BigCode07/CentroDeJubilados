@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CentroDeJubiladosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="HClinicas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Caja" Type="int" Nullable="false" />
+    <Property Name="HClinica" Type="varchar" MaxLength="50" />
+    <Property Name="Dni" Type="int" Nullable="false" />
+    <Property Name="ApeyNom" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Imagen" Type="varchar" MaxLength="150" />
+    <Property Name="Usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FCarga" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="CentroDeJubiladosModelStoreContainer">
+    <EntitySet Name="HClinicas" EntityType="Self.HClinicas" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
